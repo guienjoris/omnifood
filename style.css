@@ -1,6 +1,7 @@
 body{
    margin:0;  
    font-family: 'Lato', 'ariel',sans-serif;
+   background-color:white;
 }
 
 header{
@@ -23,12 +24,41 @@ header{
     font-family: 'Lato', sans-serif;
     
 }
+header a{
+    text-decoration:none;
+    color:white;
+}
 nav{
     display:block;
     max-width:1140px;
     margin:0 auto;
 }
-ul{
+h2{
+    font-size: 180%;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight:normal;
+}
+.intersection{
+    width:100px;
+    height:2px;
+    background-color:orange;
+    left:50%;
+    transform: translate(-50%, -50%);
+    position:relative;
+}
+#block_un{
+    padding:80px 0;
+}
+.text_block_un{
+    text-align:center;
+    font-weight:350;
+    margin-bottom:30px;
+}
+header ul{
     display:inline-flex;
     float:right;
     justify-content: space-around;
@@ -39,13 +69,13 @@ ul{
     color:white;
     
 }
-li{
+header li{
     margin-left:40px;
     font-size:90%;
     color:white;
     padding:8px;
 }
-li:hover{
+header li:hover{
     border-bottom:3px solid orange;
 }
 
@@ -105,4 +135,65 @@ li:hover{
 .show:hover{
     background-color:orange;
     color:white;
+}
+.box{
+     width:1140px;
+     margin: 0 auto;
+     display:flex;
+}
+.box_card{
+    width:23.8%;
+    justify-content: center;
+    
+    margin: 3% 10% 1% 1.6%;
+}
+.box_card img{
+    width:3vw;
+}
+.box_photo{
+    margin:0;
+    padding:0;
+    width:100%;
+    
+}
+.liste_photo{
+    margin:0;
+    padding:0;
+    width:100%;
+    display:flex;
+    
+    
+}
+.overflow{
+    overflow:hidden;
+    width:100%;
+    color:black;
+    margin:0;
+    padding:0;
+    height:auto;
+    opacity:1;
+    
+}
+
+.liste_photo img{
+    
+    opacity: 0.7;
+    width: 100%;
+    height: auto;
+    -webkit-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    transform: scale(1.15);
+    -webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
+    transition: opacity 0.5s, -webkit-transform 0.5s;
+    transition: transform 0.5s, opacity 0.5s;
+    transition: transform 0.5s, opacity 0.5s, -webkit-transform 0.5s;
+}
+.liste_photo img:hover{
+    opacity: 1;
+    -webkit-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    transform: scale(1.03);
+}
+li{
+    list-style:none;
 }
