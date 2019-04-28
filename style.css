@@ -50,9 +50,7 @@ h2{
     transform: translate(-50%, -50%);
     position:relative;
 }
-#block_un{
-    padding:80px 0;
-}
+
 .text_block_un{
     text-align:center;
     font-weight:350;
@@ -169,7 +167,6 @@ header li:hover{
     width:100%;
     margin:0;
     padding:0;
-    height:auto;
     opacity:1;
     background-color: #000;
     
@@ -196,4 +193,47 @@ header li:hover{
 }
 li{
     list-style:none;
+}
+#block_deux{
+    background-color: #f4f4f4;
+    padding: 80px 0;
+    margin: 0 auto;
+    
+}
+
+.body_blocks{
+    max-width:1140px;
+    margin: 0 auto;
+    display:flex;
+    text-align:center;
+}
+.iphone{
+    width:50%;
+    margin-top:50px; 
+}
+.iphone img{
+    width:40%;
+}
+.right_side{
+    width:50%;
+    text-align:center;
+    margin-top:10%;
+    
+}
+.number{
+    display:inline-block;
+    border-radius:50%;
+    border:2px solid orange;
+    height:55px;
+    width:55px;
+    text-align:center;
+    transform: translate(-50%,-50%);
+    color:orange;
+    font-size:250%;
+    font-weight:300;
+    margin-right:25px;
+   
+}
+.number_total{
+    margin-bottom:50px;
 }
