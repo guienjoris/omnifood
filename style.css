@@ -167,16 +167,16 @@ header li:hover{
 .overflow{
     overflow:hidden;
     width:100%;
-    color:black;
     margin:0;
     padding:0;
     height:auto;
     opacity:1;
+    background-color: #000;
     
 }
 
 .liste_photo img{
-    
+    background-color: #000;
     opacity: 0.7;
     width: 100%;
     height: auto;
