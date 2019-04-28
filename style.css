@@ -1,0 +1,108 @@
+body{
+   margin:0;  
+   font-family: 'Lato', 'ariel',sans-serif;
+}
+
+header{
+    width:100vw;
+    height:100vh;
+    display:block;
+    flex-flow: row nowrap;
+    justify-content:space-around;
+    margin:0;
+    padding:5px;
+    background:linear-gradient(
+        rgba(0, 0, 0, 0.7), 
+        rgba(0, 0, 0, 0.7)
+        ), url("./background.jpg");
+    background-size:cover;
+    background-position: center;
+    background-attachment:fixed;
+    font-size:20px;
+    font-weight:300;
+    font-family: 'Lato', sans-serif;
+    
+}
+nav{
+    display:block;
+    max-width:1140px;
+    margin:0 auto;
+}
+ul{
+    display:inline-flex;
+    float:right;
+    justify-content: space-around;
+    flex-direction: row;
+    list-style-type: none;
+    text-transform:uppercase;
+    margin-top:55px;
+    color:white;
+    
+}
+li{
+    margin-left:40px;
+    font-size:90%;
+    color:white;
+    padding:8px;
+}
+li:hover{
+    border-bottom:3px solid orange;
+}
+
+.header img{
+    height: 100px;
+    width: auto;
+    float: left;
+    margin-top: 20px;
+}
+.header_box{
+    position:absolute;
+    width:1140px;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+.header_text{
+    color:white;
+    text-transform:uppercase;
+    font-weight:300;
+    margin: 0;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 240%;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+}
+
+.button_hungry{
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    color:white;
+    background-color:orange;
+    -webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+    margin-right:15px;
+    position:relative;
+}
+.button_hungry:hover{
+    background-color:rgb(241, 156, 0);
+}
+.show{
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border:1px solid orange;
+    border-radius: 200px;
+    color:orange;
+    -webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+    
+}
+.show:hover{
+    background-color:orange;
+    color:white;
+}
