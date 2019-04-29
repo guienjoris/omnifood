@@ -263,13 +263,12 @@ li{
     max-width:1140px;
 }
 .card_cities img{
-    width:12vw;
+    width:14vw;
 }
 .card_cities_box {
     margin:5px;
     text-align:center;
     padding:5px;
-    float:left;
 }
 .block_cities{
     display:flex;
@@ -277,4 +276,9 @@ li{
 }
 .card_cities p{
     line-height:10%;
+}
+.img_ico{
+
+    width:-50px;
+    height:100px;
 }
