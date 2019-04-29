@@ -215,25 +215,46 @@ li{
     width:40%;
 }
 .right_side{
-    width:50%;
+    display:block;
+    width:40%;
     text-align:center;
-    margin-top:10%;
-    
+    margin-top:5%;
+    position:absolute;
+    right:5%;
 }
 .number{
     display:inline-block;
     border-radius:50%;
+    padding-bottom:0px;
     border:2px solid orange;
     height:55px;
     width:55px;
-    text-align:center;
+    vertical-align:center;
     transform: translate(-50%,-50%);
     color:orange;
     font-size:250%;
     font-weight:300;
-    margin-right:25px;
+    right:100%;
+    position:absolute;
+    padding:5px;
+    padding-top:10px;
+}
+.number_descript{
+    position:relative;
+    top:-0.6em;
+    font-size:1.5em;
    
 }
 .number_total{
     margin-bottom:50px;
+    position:relative;
+    display:inline-flex;
+}
+.download_img_iphone{
+    width:10.7vw;
+    height:auto;
+}
+.download_img_android{
+    width:9.2vw;
+    height:auto;
 }
