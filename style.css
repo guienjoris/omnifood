@@ -42,6 +42,10 @@ h2{
     text-transform: uppercase;
     font-weight:normal;
 }
+h3{
+    vertical-align:left;
+    text-align:left;
+}
 .intersection{
     width:100px;
     height:2px;
@@ -274,11 +278,91 @@ li{
     display:flex;
     margin:70px;
 }
+.card_cities{
+    text-align:left;
+}
 .card_cities p{
     line-height:10%;
 }
-.img_ico{
+.card_cities a{
+    color:orange;
+}
+.ion-logo-twitter:hover{
+    color:blue;
+}
+.card_cities a:hover{
+    color:black;
+    text-decoration:none;
+    
+}
+#block_quatre{
+    padding: 80px 0;
+    margin: 0 auto;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(back-customers-min.jpg);
+    background-size: cover;
+    color: #fff;
+    background-attachment: fixed;
+    
+}
+.quote_box img{
+    
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.quote_box{
+    display:flex;
+    width:25em;
+    height:auto;
+    display:inline-flex;
+    flex-flow:nowrap;
+    margin-left:25px;
+    font-size:140%;
+    max-width:1140px;
+    font-style: italic;
+}
+blockquote strong{
+    font-size:200%;
+    
+}
+cite{
+    margin-top:20px;
+    margin-left:50px;
+}
+#block_cinq{
+    padding: 80px 0;
+    background-color: #f4f4f4;
+    margin: 0 auto;
+    
+}
+.price{
+    font-size: 300%;
+    margin-bottom: 10px;
+    font-weight: 100;
+    color: #e67e22;
+}
+.box_signup{
+    /*max-width:1140px;*/
+    display:flex;
+    flex-flow:row nowrap;
+}
+.box_card_price{
+    margin: 50px 50px 50px 250px;
+    width:33%;
+    background-color: white;
+}
+.box_price{
+    padding:10px 10px 0px 10px;
+}
 
-    width:-50px;
-    height:100px;
+.box_card_check{
+    border-top:1px solid gray;
+    border-bottom:1px solid gray;
+    text-align:center;
+    margin:10px 0px ;
+}
+.signup_button{
+    margin:10px;
+    text-align:center;
 }
