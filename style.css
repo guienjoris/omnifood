@@ -258,3 +258,23 @@ li{
     width:9.2vw;
     height:auto;
 }
+#block_trois{
+    margin:0 auto;
+    max-width:1140px;
+}
+.card_cities img{
+    width:12vw;
+}
+.card_cities_box {
+    margin:5px;
+    text-align:center;
+    padding:5px;
+    float:left;
+}
+.block_cities{
+    display:flex;
+    margin:70px;
+}
+.card_cities p{
+    line-height:10%;
+}
