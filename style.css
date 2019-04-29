@@ -142,10 +142,12 @@ header li:hover{
      width:1140px;
      margin: 0 auto;
      display:flex;
+     margin-left:22%;
 }
 .box_card{
-    width:23.8%;
+    width:25%;
     justify-content: center;
+    text-align:left;
     
     margin: 3% 10% 1% 1.6%;
 }
@@ -233,7 +235,7 @@ li{
     border:2px solid orange;
     height:55px;
     width:55px;
-    vertical-align:center;
+    vertical-align:left;
     transform: translate(-50%,-50%);
     color:orange;
     font-size:250%;
@@ -245,7 +247,7 @@ li{
 }
 .number_descript{
     position:relative;
-    top:-0.6em;
+    top:-0.5em;
     font-size:1.5em;
    
 }
@@ -343,26 +345,36 @@ cite{
     color: #e67e22;
 }
 .box_signup{
-    /*max-width:1140px;*/
     display:flex;
     flex-flow:row nowrap;
+    justify-content: center;
+    
 }
 .box_card_price{
-    margin: 50px 50px 50px 250px;
-    width:33%;
+    
+    margin: 50px 0px 50px 25px;
+    width:20%;
+    max-width:1140px;
     background-color: white;
 }
 .box_price{
     padding:10px 10px 0px 10px;
+    border-bottom:1px solid gray;
+    height:200px;
 }
 
 .box_card_check{
-    border-top:1px solid gray;
-    border-bottom:1px solid gray;
-    text-align:center;
-    margin:10px 0px ;
+    text-align:left;
+    margin:10px 10px ;
+}
+.box_card_check i{
+    margin-right:25px;
 }
 .signup_button{
-    margin:10px;
+    padding:10px;
     text-align:center;
+    border-top:1px solid gray;
+}
+.price_3{
+    margin-bottom:100px;
 }
